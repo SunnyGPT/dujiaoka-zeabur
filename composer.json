@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2.5|^8.0",
+        "php": "7.4",
         "amrshawky/laravel-currency": "^4.0",
         "dcat/easy-excel": "^1.0",
         "dcat/laravel-admin": "2.*",
@@ -22,7 +22,10 @@
         "simplesoftwareio/simple-qrcode": "2.0.0",
         "stripe/stripe-php": "^7.84",
         "xhat/payjs-laravel": "^1.6",
-        "yansongda/pay": "^2.10"
+        "yansongda/pay": "^2.10",
+        "ext-bcmath": "*",
+        "ext-gd": "*",
+        "ext-zip": "*"
     },
     "require-dev": {
         "facade/ignition": "^1.16.15",
